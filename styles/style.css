@@ -43,6 +43,9 @@
     margin-top: 25px;
 }
 
+img{
+    width: 100%;
+}
 .primary-btn {
     color: var(--white);
     background-color: var(--btn_bg_color);
@@ -304,6 +307,7 @@
         margin: 0;
         padding: 10px;
     }
+   
     .navigation-section {
         grid-template-columns: 1fr;
         text-align: center;
@@ -315,8 +319,15 @@
     .banner-details{
         margin: 0;
     }
- 
-    
+
+    .teams-section {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px
+    }
+    .team-img {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
 
 
 }
