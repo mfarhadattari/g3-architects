@@ -3,15 +3,15 @@
 
 :root {
     --header_bg_color: rgba(255, 144, 14, 0.1);
-    --address_bg_color:#2C1552;
+    --address_bg_color: #2C1552;
     --footer_bg_color: #FFF4E7;
     --btn_bg_color: #FF900E;
     --dark_color_1: #131313;
     --dark_color_2: #424242;
     --dark_color_3: #727272;
     --white: #FFFFFF;
-    --white_color_2:#EBDDFC;
-  
+    --white_color_2: #EBDDFC;
+
 }
 
 /* Universal Styles */
@@ -43,9 +43,10 @@
     margin-top: 25px;
 }
 
-img{
+img {
     width: 100%;
 }
+
 .primary-btn {
     color: var(--white);
     background-color: var(--btn_bg_color);
@@ -175,6 +176,7 @@ img{
     font-weight: 400;
     font-size: 15px;
 }
+
 .feature-banner {
     text-align: right;
 }
@@ -219,11 +221,13 @@ img{
     width: 200px;
     padding-top: 30px;
     transition: transform 4s;
-    
+
 }
-.success-item:hover{
+
+.success-item:hover {
     transform: scale(0.5) rotate(360deg);
 }
+
 .success-item img {
     height: 45px;
     width: 45px;
@@ -258,7 +262,7 @@ img{
 }
 
 /* Address and Social Section */
-.address-social{
+.address-social {
     background-color: var(--address_bg_color);
     color: var(--white_color_2);
     display: flex;
@@ -270,14 +274,16 @@ img{
     border-radius: 8px;
 }
 
-.address-item{
+.address-item {
     font-size: 20px;
     margin-top: 5px;
 }
-.social{
+
+.social {
     margin-top: 30px;
 }
-.social img{
+
+.social img {
     height: 40px;
     width: 40px;
     margin: 5px;
@@ -309,18 +315,19 @@ img{
         margin: 0;
         padding: 10px;
     }
-   
+
     /* Navigation and Banner */
     .navigation-section {
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
         text-align: center;
     }
-    
-    .navigation{
+
+    .navigation {
         flex-direction: column;
     }
-    .banner-details{
+
+    .banner-details {
         margin: 0;
     }
 
@@ -329,12 +336,21 @@ img{
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 50px
     }
+
     .team-img {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 20px;
     }
 
-    /*  */
+    /* Feature Section */
+    .feature-section {
+        grid-template-columns: 1fr;
+    }
+
+    .experience {
+        transform: none;
+    }
+
 
 
 }
@@ -342,6 +358,6 @@ img{
 
 
 
-.hide{
+.hide {
     display: none;
 }
