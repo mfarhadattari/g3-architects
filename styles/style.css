@@ -377,7 +377,8 @@ img {
         align-items: center;
         row-gap: 20px;
     }
-    .sponsor-logo img{
+
+    .sponsor-logo img {
         width: 60%;
     }
 
@@ -388,7 +389,100 @@ img {
         row-gap: 50px;
     }
 
-    .follow-section{
+    .follow-section {
         text-align: center;
     }
+}
+
+
+/*------------------------------------
+                        Tab Responsive 
+                width ≥ 576px and width =<768px
+      ------------------------------------*/
+@media only screen and (min-width:576px) and (max-width:769px) {
+    /* Common Styles */
+     .container {
+        margin: 50px;
+        padding: 15px;
+    }
+
+    /* Navigation and Banner */
+    .navigation-section {
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+        text-align: center;
+    }
+
+    .navigation {
+        justify-content: space-around;
+    }
+    .banner-details {
+        margin: 0;
+    }
+
+    /* Team Section */
+    .teams-section {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px
+    }
+
+    .team-img {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    /* Feature Section */
+    .feature-section {
+        grid-template-columns: 1fr;
+    }
+
+    .articles{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .experience {
+        transform: none;
+    }
+
+
+    /* Some Fact Section */
+    .some-fact {
+        margin: 20px 0 0;
+        text-align: center;
+    }
+
+    /* Success Section */
+
+    .success-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 20px;
+        padding: 0 120px;
+    }
+
+    /* Sponsor Section */
+    .sponsors{
+        margin-top: 0;
+    }
+    .sponsor-info {
+        margin: 0px;
+        padding: 0 60px;
+    }
+
+    .sponsor-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
+        gap: 20px;
+    }
+
+    .sponsor-logo img {
+        width: 60%;
+    }
+
+
 }
