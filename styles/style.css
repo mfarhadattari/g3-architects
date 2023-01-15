@@ -258,6 +258,7 @@ img {
 
 .sponsor-logo {
     display: flex;
+    column-gap: 20px;
     justify-content: space-between;
 }
 
@@ -385,11 +386,4 @@ img {
     .follow-section{
         text-align: center;
     }
-}
-
-
-
-
-.hide {
-    display: none;
 }
