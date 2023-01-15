@@ -353,20 +353,38 @@ img {
 
 
     /* Some Fact Section */
-    .some-fact{
+    .some-fact {
         margin: 20px 0 0;
         text-align: center;
     }
 
     /* Success Section */
 
-.success-container {
-    flex-direction: column;
-    row-gap: 20px;
-}
+    .success-container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
 
+    /* Sponsor Section */
+    .sponsor-info {
+        margin: 0px;
+    }
 
+    .sponsor-logo {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
 
+    /* Address and Social Section */
+    .address-social {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .follow-section{
+        text-align: center;
+    }
 }
 
 
