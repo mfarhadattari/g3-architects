@@ -302,6 +302,7 @@
 @media only screen and (max-width:576px) {
     .container {
         margin: 0;
+        padding: 10px;
     }
     .navigation-section {
         grid-template-columns: 1fr;
