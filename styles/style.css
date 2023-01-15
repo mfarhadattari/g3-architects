@@ -303,13 +303,17 @@ img{
                  width < 576px
     -----------------------------------*/
 @media only screen and (max-width:576px) {
+
+    /* Common Styles */
     .container {
         margin: 0;
         padding: 10px;
     }
    
+    /* Navigation and Banner */
     .navigation-section {
         grid-template-columns: 1fr;
+        grid-row-gap: 20px;
         text-align: center;
     }
     
@@ -320,6 +324,7 @@ img{
         margin: 0;
     }
 
+    /* Team Section */
     .teams-section {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 50px
@@ -328,6 +333,8 @@ img{
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 20px;
     }
+
+    /*  */
 
 
 }
