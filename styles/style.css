@@ -355,7 +355,15 @@ img {
     /* Some Fact Section */
     .some-fact{
         margin: 20px 0 0;
+        text-align: center;
     }
+
+    /* Success Section */
+
+.success-container {
+    flex-direction: column;
+    row-gap: 20px;
+}
 
 
 
